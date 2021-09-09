@@ -1,9 +1,3 @@
->>> 17 * 0.39
-6.63
->>> 2 * 2.78
-5.56
->>> 3 * 0.50
-1.5
->>> 5.56 - 1.5
-4.06
->>>
+calculated = 17 * 0.39 + 2 * 2.78 - 3 * 0.50
+txt = "De feestlunch kost je bij de bakker {} euro voor de 17 croissantjes en de 2 stokbroden als de 3 kortingsbonnen nog geldig zijn!"
+print(txt.format(calculated))
